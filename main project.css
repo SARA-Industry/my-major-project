@@ -1,0 +1,123 @@
+.navbar{
+    background-color:black;
+    border-radius: 30px;
+
+}
+.navbar ul{
+    overflow: auto;
+    
+}
+ .navbar a{
+  border-color: black;
+  border-radius: 2px;
+}
+.navbar li a{
+    border-radius: 20px; 
+    text-decoration: none;
+    background-color: blanchedalmond;
+}
+.navbar li a:hover{
+    
+    background-color:skyblue;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+
+}
+.navbar div{
+    color: blanchedalmond;
+    font-size: 30px;
+    padding: 12px 15px;
+    
+}
+.navbar div input{
+    border-radius: 15px;
+}
+.coursbar-Box-2{
+    margin: 1rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.yearlist{
+     font-size: 20px;
+     border-radius: 10px;
+     justify-content: center;
+}
+
+.coursbar{
+    display: inherit;
+    width:100%;
+    height: 60vh;
+    border-radius: 10px;
+    border-color:rgb(191, 14, 14);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coursbar-Box-1{
+    border-radius: 2px;
+    border-color: rgba(3, 0, 0, 0.998);
+    width: 25%;
+    height: 60vh;
+    margin-left: 3%;
+    margin-right: 2%;
+    background-color: rgb(8, 173, 199);
+    
+}
+.coursbar-Box-2{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 35%;
+    height: 60vh;
+    background-color: rgba(82, 6, 6, 0.338);
+}
+.coursbar-Box-3{
+    border-radius: 2px;
+    border-color: black;
+    width: 25%;
+    height: 60vh;
+    margin-left: 2%;
+    margin-right: 3%;
+    background-color: rgb(8, 173, 199);
+    
+}
+
+.Aboutus{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(8, 173, 199);
+}
+
+.contectus{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(1, 163, 192);
+}
+
+.contectus-1{
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 0px;
+    height: 60vh;
+    padding-left: 20px;
+    background-color:white;
+}
+.name__input{
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+}
